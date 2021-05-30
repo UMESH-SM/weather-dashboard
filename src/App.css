@@ -1,0 +1,32 @@
+.app {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.app__header {
+  height: 8vh;
+  background-color: rgb(19, 18, 18);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app__name {
+  color: aliceblue;
+  font-family: "Lobster", cursive;
+  font-size: 1.5em;
+}
+
+.app__name:hover {
+  color: lightgreen;
+  cursor: pointer;
+}
+
+.app__body {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 46vh 46vh;
+  font-family: "Merriweather", serif;
+  background-color: rgba(32, 30, 30, 0.9);
+}
