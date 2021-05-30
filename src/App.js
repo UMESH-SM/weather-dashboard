@@ -42,7 +42,7 @@ function App() {
   useEffect(() => {
     (async function () {
       const res = await axios(
-        "http://private-4945e-weather34.apiary-proxy.com/weather34/rain"
+        "https://private-4945e-weather34.apiary-proxy.com/weather34/rain"
       );
       let amountOfRain = [];
       res.data[0].days.forEach((item) => {
