@@ -12,7 +12,7 @@ function BarGraph({ amount }) {
           labels: ["1", "2", "3", "4", "5", "6", "7"],
           datasets: [
             {
-              label: "Amount of Rain",
+              label: "Amount of Rainfall",
               data: amount,
               backgroundColor: "rgb(0,0,205)",
               borderColor: "rgb(0,0,205)",
